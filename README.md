@@ -20,6 +20,7 @@ The technical implementation of the project is that we:
     6. other: Other types of referrers.n: The number of occurrences of this (prev, curr, type) combination during the month.
 
   4. Prediction task
+     
     1. We used Logreg to predict the article category based on previous article
     2. Used a predefined category list to map each link (previous or current) to a category to make the prediction task “useful”
     3. Any unmapped categories were defined as “other”
@@ -31,7 +32,7 @@ The technical implementation of the project is that we:
     9. The confusion matrix had various performance parameters such as accuracy, precision and f1 score among others
     10. We faced insufficiency of prediction due to df being sampled at 10% and then further excluding categories where it was “other” as category or the previous and current links were pointing to each other
 
-5. Scope: The dataset includes for December 2023, the total link transitions for the language english
+6. Scope: The dataset includes for December 2023, the total link transitions for the language english
   
   
        
