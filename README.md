@@ -1,7 +1,9 @@
 Analysis focuses on analyzing a Wikimedia clicks dataset that tells you where users are navigating from and to, and the number of people in a given month that are going from one link to another.The technical implementation of the project is that we:
 
-Download data from --> to the data/ folder
+Prerequisites
+- Download data from --> to the data/ folder
 (https://dumps.wikimedia.org/other/clickstream/2023-12/clickstream-enwiki-2023-12.tsv.gz)
+- Set up virtual environment / venv folder
 
 Exploratory questions
 
