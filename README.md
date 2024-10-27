@@ -1,5 +1,8 @@
 Analysis focuses on analyzing a Wikimedia clicks dataset that tells you where users are navigating from and to, and the number of people in a given month that are going from one link to another.The technical implementation of the project is that we:
 
+Download data from --> to the data/ folder
+(https://dumps.wikimedia.org/other/clickstream/2023-12/clickstream-enwiki-2023-12.tsv.gz)
+
 Exploratory questions
 
 - [Scope] the exploration for December 2023’s english dataset for wikipedia clickstream
