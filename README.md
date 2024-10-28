@@ -33,6 +33,9 @@ Analysis
 - Map articles into predefined categories (using a mapper)
   - Understand the top 10  trends within each bucket
   - Understand concentration of transitions between categories
+- Quantile analysis
+  - Understand deciles for 'n' in sample and overall data to generalize information
+  - Understand composition of Outliers (for example n >=500 transitions from prev to curr) might reveal prevalence of user behavior (what users most likely transition from and to)
 
 - Column Description
   - `prev` The title of the Wikipedia article the user visited before the current one, or a special value indicating the source type (example 'other-search' may mean other search engines like Google, external of wikipedia).
