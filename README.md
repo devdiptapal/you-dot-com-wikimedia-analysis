@@ -45,7 +45,7 @@ Analysis
   
 
 - Prediction Task: Logistic Regression to predict the category of the next “Article” based on the previous article
-  - In the ‘prev’ and ‘curr’ columns, find the top 50 occurring tokens and map them to category. Create a dictionary with category and mapping these tokens to specific categories
+  - In the ‘prev’ and ‘curr’ columns, find the top 500 occurring tokens and map them to category. Create a dictionary with category and mapping these tokens to specific categories
   - Used this category dictionary to map each article (in ‘prev’ to ‘curr’)  to a category to make the prediction task more bounded and useful
     - [Manual] Initially, had used a static list and was only able to map 4% of articles in ‘curr’, with tokenization, then sorting top 500 tokens and manually classifying it into categories, we’re able to improve it 6.5% (+2.5%) (possible to automate this step) 
   - Filtered for only mapped categories, removing “other” as its less useful
